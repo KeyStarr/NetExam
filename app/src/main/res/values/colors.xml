@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="coolGray">#F4F4F4</color>
+    <color name="light_gray">#D9DEDE</color>
+    <color name="auth_login_button">#B7B9F9</color>
+    <color name="auth_register_button">#BBBCD2</color>
+    <color name="main_background">#5156E4</color>
+    <color name="outer_card_background">#D9DEDE</color>
+    <color name="student_main_screen_nav_view_body_background">#F4F4F4</color>
+    <color name="available_exams_snackbar_background">#EBEDED</color>
+    <color name="available_exams_snackbar_start_button">#097EEB</color>
+    <color name="white">#FFFFFF</color>
+    <color name="registration_viewpager_pagerstrip">#D9DEDE</color>
+</resources>

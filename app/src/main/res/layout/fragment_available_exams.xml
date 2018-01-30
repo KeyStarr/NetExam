@@ -1,0 +1,34 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="kstarostin.thumbtack.net.netexam.ui.student.main_screen.fragments.AvailableExamsFragment">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/available_card"
+        android:visibility="gone"
+        android:layout_marginTop="@dimen/exams_card_margin_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:cardUseCompatPadding="true"
+        card_view:cardCornerRadius="@dimen/standard_card_corner_radius"
+        android:layout_marginLeft="@dimen/exams_recycler_left_right_margin"
+        android:layout_marginRight="@dimen/exams_recycler_left_right_margin"
+        card_view:contentPadding="@dimen/inner_card_content_padding"
+        card_view:cardBackgroundColor="@color/outer_card_background">
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/exams_recycler_padding"
+            android:id="@+id/recycler_view_exams_list" />
+
+    </android.support.v7.widget.CardView>
+
+    <include layout="@layout/progress_bar" />
+
+    <include layout="@layout/error_layout" />
+
+</RelativeLayout>

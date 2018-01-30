@@ -1,0 +1,45 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="registration_between_field_land">40dp</dimen>
+    <dimen name="registration_field_top_land">5dp</dimen>
+    <dimen name="registration_field_width_land">248dp</dimen>
+    <dimen name="toolbar_refresh_margin">22dp</dimen>
+    <dimen name="auth_login_width">197dp</dimen>
+    <dimen name="auth_register_margin">5dp</dimen>
+    <dimen name="standard_card_corner_radius">5dp</dimen>
+    <dimen name="outer_card_content_padding">15dp</dimen>
+    <dimen name="inner_card_content_padding">5dp</dimen>
+    <dimen name="register_viewpager_margin">10dp</dimen>
+    <dimen name="register_input_field_width">297dp</dimen>
+    <dimen name="register_input_field_top_margin">3dp</dimen>
+    <dimen name="register_button_margin_bot">9dp</dimen>
+    <dimen name="exams_recycler_padding">4dp</dimen>
+    <dimen name="exams_recycler_left_right_margin">15dp</dimen>
+    <dimen name="exams_card_margin_top">100dp</dimen>
+    <dimen name="av_exams_snackbar_margin_top">10dp</dimen>
+    <dimen name="av_exams_card_view_top_bot_margin">10dp</dimen>
+    <dimen name="av_exams_card_view_left_right_margin">5dp</dimen>
+    <dimen name="exam_recycler_item_card_margin">4dp</dimen>
+    <dimen name="exam_recycler_item_text_padding">10dp</dimen>
+    <dimen name="timer_icon_margin_right">4dp</dimen>
+    <dimen name="student_exam_questions_title_margin_top">33dp</dimen>
+    <dimen name="student_exam_question_title_margin_left">10dp</dimen>
+    <dimen name="toolbar_timer_right_margin">32dp</dimen>
+    <dimen name="recycler_view_divider_height">2dp</dimen>
+    <dimen name="student_exam_question_container_height">290dp</dimen>
+    <dimen name="answers_radio_group_margin_left">10dp</dimen>
+    <dimen name="student_exam_questions_nav_view_width">118dp</dimen>
+    <dimen name="student_exam_nav_view_recycler_margin_top">10dp</dimen>
+    <dimen name="protocol_divider_height">1dp</dimen>
+    <dimen name="protocol_divider_width">50dp</dimen>
+    <dimen name="registration_field_font_size">13sp</dimen>
+    <dimen name="registration_field_side_content_padding">10dp</dimen>
+    <dimen name="result_collaps_toolbar_margin_start">48dp</dimen>
+    <dimen name="result_collaps_toolbar_margin_end">64dp</dimen>
+    <dimen name="collapse_toolbar_height">357dp</dimen>
+    <dimen name="result_info_card_content_padding">10dp</dimen>
+</resources>

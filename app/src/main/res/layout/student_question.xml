@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:id="@+id/question_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/student_exam_question_container_height">
+
+        <TextView
+            android:id="@+id/question_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/exam_recycler_item_text_padding"
+            android:textSize="24sp"
+            android:textColor="@android:color/black"/>
+
+    </ScrollView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question_container">
+
+        <RadioGroup
+            android:id="@+id/answers_container"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/answers_radio_group_margin_left"
+            android:paddingStart="@dimen/answers_radio_group_margin_left">
+        </RadioGroup>
+
+    </ScrollView>
+
+</RelativeLayout>

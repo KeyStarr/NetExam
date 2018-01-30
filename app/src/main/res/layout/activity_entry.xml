@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_entry"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="kstarostin.thumbtack.net.netexam.ui.entry.EntryActivity">
+
+    <include
+        android:id="@+id/toolbar_container"
+        layout="@layout/toolbar_main" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/entry_container"
+        android:layout_below="@id/toolbar_container">
+    </RelativeLayout>
+
+</RelativeLayout>

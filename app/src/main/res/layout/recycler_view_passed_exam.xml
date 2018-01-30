@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/exams_recycler_left_right_margin"
+    android:paddingRight="@dimen/exams_recycler_left_right_margin">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:cardUseCompatPadding="true"
+        card_view:cardCornerRadius="@dimen/standard_card_corner_radius"
+        android:layout_margin="@dimen/exam_recycler_item_card_margin">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recycler_view_passed_exam_name"
+        android:padding="@dimen/exam_recycler_item_text_padding"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:clickable="true"
+        android:background="?android:attr/selectableItemBackground"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recycler_view_passed_exam_score"
+        android:padding="@dimen/exam_recycler_item_text_padding"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:gravity="end" />
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

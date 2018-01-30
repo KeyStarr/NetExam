@@ -1,0 +1,57 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="answerButtonStyle">@style/answerRadioButtonStyle</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="ToolbarTitle" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="answerRadioButtonStyle" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <!---
+       <item name="android:layout_height">wrap_content</item>
+       <item name="android:gravity">center</item>
+       <item name="android:background">?android:attr/selectableItemBackground</item>
+       -->
+       <item name="android:textSize">18sp</item>
+   </style>
+
+    <style name="TableRowTextViewStyle">
+        <item name="background">@color/white</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">1dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="TableRowStyle">
+        <item name="android:background">#000000</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_margin">1dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="TextAppearance.ExpandedToolbarTitle" parent="Base.TextAppearance.AppCompat.Title">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/outer_card_background</item>
+    </style>
+
+    <style name="TextAppearance.ToolbarTitle" parent="Base.TextAppearance.AppCompat.Title">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/error_container"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:visibility="gone"
+    android:layout_centerInParent="true">
+
+    <TextView
+        android:id="@+id/error_message_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:id="@+id/retry_receive_exams_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/error_message_textview"
+        android:text="@string/retry"
+        android:textColor="@android:color/holo_blue_bright"
+        android:layout_centerHorizontal="true">
+
+    </Button>
+
+</RelativeLayout>

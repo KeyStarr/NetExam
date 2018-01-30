@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/available_exams"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/available_exams"
+            android:checked="true"/>
+        <item
+            android:id="@+id/passed_exams"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/passed_exams" />
+    </group>
+
+    <item android:title="@string/settings">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/logout" />
+        </menu>
+    </item>
+
+</menu>

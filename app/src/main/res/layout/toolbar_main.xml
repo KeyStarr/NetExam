@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fitsSystemWindows="true">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:title=""
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:titleTextAppearance="@style/ToolbarTitle">
+
+            <ImageButton
+                android:id="@+id/ic_refresh"
+                android:visibility="gone"
+                style="@android:style/Widget.ImageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginEnd="@dimen/toolbar_refresh_margin"
+                android:layout_marginRight="@dimen/toolbar_refresh_margin"
+                android:background="?android:attr/selectableItemBackground"
+                android:contentDescription="@string/cd_refresh"
+                android:src="@drawable/ic_refresh" />
+
+            <ImageButton
+                android:id="@+id/ic_finish_exam"
+                style="@android:style/Widget.ImageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginEnd="@dimen/toolbar_refresh_margin"
+                android:layout_marginRight="@dimen/toolbar_refresh_margin"
+                android:background="?android:attr/selectableItemBackground"
+                android:contentDescription="@string/finish_exam"
+                android:src="@drawable/ic_done"
+                android:visibility="gone" />
+
+            <ProgressBar
+                android:id="@+id/toolbar_progress_bar"
+                android:visibility="gone"
+                android:layout_gravity="end"
+                android:layout_marginEnd="@dimen/toolbar_refresh_margin"
+                android:layout_marginRight="@dimen/toolbar_refresh_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:indeterminate="true" />
+
+            <RelativeLayout
+                android:id="@+id/timer_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/toolbar_timer_right_margin"
+                android:layout_marginRight="@dimen/toolbar_timer_right_margin"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/timer_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/timer_icon_margin_right"
+                    android:layout_marginRight="@dimen/timer_icon_margin_right"
+                    android:layout_toLeftOf="@id/timer_text_view"
+                    android:layout_toStartOf="@id/timer_text_view"
+                    android:contentDescription="@string/timer_icon"
+                    android:src="@drawable/ic_time" />
+            </RelativeLayout>
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+</RelativeLayout>
