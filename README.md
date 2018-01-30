@@ -1,4 +1,4 @@
-# WordsHunter
+# NetExam
 
 ### Functionality
 A client for the examination service. All the data is on the backend's side, this android app just fetches it dynamically and gives the following opportunities (for user is a student):
